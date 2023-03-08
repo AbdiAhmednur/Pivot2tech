@@ -1,42 +1,46 @@
 import React from 'react';
-import './Games.css';
-import Games from './Games.js';
+import Header from './Header';
+import Footer from './footer';
+import './App.css';
 
-function GamesList( ) {
+function App() {
   return (
-    <div>
-      <Games
-        img="https://upload.wikimedia.org/wikipedia/en/a/ae/Fortnite_Save_The_World.jpg"
-        name="Fortnite"
-        Developers="Epic games"
-        TypeOfGame="Battle Royal"
-      />
-      <Games
-        img="https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg"
-        name="Apex Legends"
-        Developers="Respawn"
-        TypeOfGame="Battle Royal"
-      />
-      <Games
-        img="https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg" 
-        name="God of War ragnarok"
-        Developers="Santa monica studio"
-        TypeOfGame="Role playing game"
-      />
-      <Games
-        img="https://upload.wikimedia.org/wikipedia/en/a/a1/High_on_Life_cover_art.jpg"
-        name="High On Life"
-        Developers="Squanch games"
-        TypeOfGame="Role playing game"
-      />
-      <Games
-        img="https://upload.wikimedia.org/wikipedia/en/4/4a/Call_of_Duty_Modern_Warfare_II_Key_Art.jpg"
-        name="Call of duty modern warfare 2 warzone"
-        Developers="infinity ward"
-        TypeOfGame="Role playing game"
-      />
+    <div className="App">
+      < Header />
+     <br /> 
+     <br /> 
+      <h1>Fun Facts about about React</h1>
+      <ul>
+      <p>reason I <em>❤</em> React</p>
+      <li>it's composable</li>
+      <li>it's declarative</li>
+      <li>it's a hireable skill</li>
+      <li>it's actively maintained by skilled people</li>
+      </ul>
+      <Footer />
     </div>
   );
 }
 
-export default GamesList;
+export default App;
+
+// ReactDom.render(<h1>Hello Everyone</h1>, document.getElementBid ("root"))
+
+//use component as much as you can
+
+// there is also a <Fragment> which is an alternative to the div in react 
+
+// look into es6
+
+/* const page = (
+  <div>
+  <h1>my awesome website in react</h1>
+  </div>
+)*/
+
+// look into a declarative and imperative in react most people use declarative 
+
+// custom components are sections of websites put together  
+
+//
+
