@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(109.6deg, rgb(14, 11, 56) 11.2%, rgb(239, 37, 37) 91.1%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+h1 {
+    text-decoration: underline;
+}
+
+
+.var {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  button {
+    margin-left: 60px;
+    
+  }
+  
+
+
+
+
+
+
