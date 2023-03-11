@@ -1,0 +1,12 @@
+.colorChange{
+ background-color: green;   
+}
+
+display{
+    display: none;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}   
