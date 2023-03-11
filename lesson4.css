@@ -1,0 +1,31 @@
+
+ul {
+ list-style-type: none;
+ display: flex;
+ background-color: brown;
+}
+
+li {
+    display: block;
+    padding: 10px 15px;
+}
+
+items. a {
+
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover {
+    color: blue;
+}
+
+img {
+    width: 400px ;
+    height: 250px ;
+    opacity: 0.9;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}

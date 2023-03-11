@@ -1,0 +1,59 @@
+
+
+body{
+
+    background-color: black;
+    margin-top: -220px;
+
+}
+
+H1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+img {
+    width: 100%;
+    
+    
+
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;  
+
+}
+
+.shop-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a {
+    color: white;
+}
+.main {
+    position: relative;
+    top: -170px;
+}

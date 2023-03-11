@@ -1,0 +1,29 @@
+
+body {
+    background-color: royalblue;
+}
+
+
+
+h1 {
+    align-content: center;
+    text-decoration: underline;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #ffff;
+    gap: 10%;
+    margin: 0px;
+    width: 100%;
+    padding: 6px;
+    }
+
+
+nav li {
+  list-style: none;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px:
+}
